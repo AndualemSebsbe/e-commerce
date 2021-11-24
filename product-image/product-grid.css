@@ -1,0 +1,20 @@
+.wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+.product-grid{
+    float: left;
+    height: 60px;
+    width: 50px;
+    margin: 10px;
+    font-family: 'century gothic';
+}
+.product-grid .product-image{
+    float: left;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
